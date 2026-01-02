@@ -3,7 +3,7 @@
 基于 YOLOv11n 的无人机航拍微小目标检测，加入 P2 高分辨率检测头与空洞卷积以提升微小目标召回；支持消融实验、评估与 SAHI 切片推理。
 
 ## 亮点
-- P2 高分辨率检测头 + 可选空洞卷积（Dilated）增强上下文感受野。
+- P2 高分辨率检测头 + 空洞卷积（Dilated）增强上下文感受野。
 - 一键消融：Baseline / P2 / P2+Dilated 自动训练与对比。
 - 推理双路径：原生 YOLO + SAHI 切片。
 - 复现性：入口脚本默认设定随机种子。
@@ -117,4 +117,5 @@ python demo_inference.py
 - YOLOv11: https://docs.ultralytics.com/
 - SAHI: https://github.com/obss/sahi
 - VisDrone: http://aiskyeye.com/
+
 
