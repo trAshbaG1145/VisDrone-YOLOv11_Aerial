@@ -31,3 +31,4 @@ pytorch_model.bin
 /runs/
 *.pt
 /demo_result/
+*.pdf
